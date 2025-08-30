@@ -6,6 +6,7 @@ import tesla from './tesla.png'
 import logo from './logo.svg'
 import prism from './prism.png'
 import designers_dorm from './designers_dorm.jpeg'
+import pingidentity from './pingidentity.png'
 
 export {
     hero,
@@ -15,5 +16,6 @@ export {
     tesla,
     logo,
     prism,
-    designers_dorm
+    designers_dorm,
+    pingidentity
 }

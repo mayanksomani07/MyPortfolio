@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Mayank Somani</span>
         👋
         <br />
-        Information Science Student from RV College of Engineering, India
+        Software Engineer 1 at PingIdentity | ISE'24 Student & Placement Coordinator at RVCE | Samsung Prims Mentee
       </h1>
     );
 

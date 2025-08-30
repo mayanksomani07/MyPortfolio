@@ -22,9 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        A Software engineer with a strong background in web development and graphic design. Proven track record in
-HTML, CSS, Javascript, PHP, and Python. Certified in digital marketing, data structures, and Java development.
-
+        Software engineer with a strong foundation in full-stack web development, AI/ML applications, and graphic design. Proficient in technologies including React, Node.js, Python, and AI frameworks such as LangChain and Hugging Face. Skilled in building AI-driven chatbots and designing intuitive, user-centric UI/UX features, with expertise in performance optimization and improving software quality. Certified in digital marketing, data structures, and Java development. Holds a Bachelor of Engineering (B.E.) in Information Science and Engineering from RV College of Engineering. Passionate about leveraging technology and design to create impactful and user-centric solutions.
         </p>
       </div>
 

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, prism, designers_dorm } from "../assets/images";
+import { meta, shopify, starbucks, tesla, prism, designers_dorm, pingidentity } from "../assets/images";
 import {
     car,
     contact,
@@ -194,14 +194,40 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software Engineering 1 ",
+        company_name: "PingIdentity",
+        icon: pingidentity,
+        iconBg: "#C1272D",
+        date: "July 2024 - Present",
+        points: [
+            "Contributed to the design and implementation of an AI-driven chatbot for PingOne DaVinci, enabling intuitive natural language interaction with orchestration workflows and enhancing user engagement.",
+            "Performed minor bug fixes on Helix-Proxy, backend service linking PingOne and Helix for AI agent development.",
+            "Assisted in building an AI-powered assistant for the PingOne Platform, facilitating platform-wide interactions and administrative tasks through natural language, reducing manual effort and improving operational efficiency.",
+            "Collaborated with the Helix Platform team to resolve multiple UI bug fixes, enhancing user experience.",
+            "Developed an AI Agent workflow within the Ping Protect ecosystem, automating decision-making processes for better threat detection and incident response."
+        ],
+    },
+    {
+        title: "SDE Intern",
+        company_name: "PingIdentity",
+        icon: pingidentity,
+        iconBg: "#C1272D",
+        date: "January 2024 - June 2024",
+        points: [
+            "Designed and deployed a full-stack semantic video search web application for internal use, leveraging ReactJS, Node.js, PM2, and Nginx, significantly improving content discoverability for employees.",
+            "Increased unit test coverage of the DaVinci application from 62.1% to 72.3% using the Mocha and Chai testing frameworks, contributing to better reliability and code quality.",
+            "Executed and validated over 500 TestRail test cases as part of the quality assurance process for DaVinci Flows."
+        ],
+    },
+    {
         title: "Mentee",
         company_name: "Samsung Prims",
         icon: prism,
         iconBg: "#a2d2ea",
         date: "January 2023 - June 2023",
         points: [
-            "Created and deployed a specialized load-testing client to measure latency performance in the Aerospike NoSQL database.",
-            "Measured and captured benchmarking results, employing Prometheus to extract metrics and visualize outcomes on Grafana dashboards.",
+            "Developed and deployed a specialized load-testing client to evaluate latency, throughput performance of the Aerospike NoSQL database.",
+            "Collected and analyzed benchmarking results, utilizing Prometheus for metrics extraction and Grafana dashboards for visualization.",
         ],
     },
     {
@@ -211,7 +237,7 @@ export const experiences = [
         iconBg: "#fcfcfc",
         date: "Novemeber 2021 - December 2021",
         points: [
-            "As a Graphic Design Freelancer, created 3 unique t-shirt designs that were successfully printed.",
+            "Created 3 unique t-shirt designs as a freelance graphic designer, which were successfully printed.",
         ],
     },
 ];
